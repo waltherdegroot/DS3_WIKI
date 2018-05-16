@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="<?= URL ?>css/style.css">
 </head>
 <body>
+	<img src="<?=URL?>/images/DS3_LOGO.png">
 	<nav>
 		<ul>
 			<li>Test</li>
