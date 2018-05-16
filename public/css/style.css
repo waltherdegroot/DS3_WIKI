@@ -1,0 +1,152 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+@import url(//fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+body{
+	background-color: #c9c9c9;
+	width: 95%;
+	margin: 0 auto;
+}
+
+footer{
+	margin-top: 50px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+nav{
+	text-align: center;
+}
+
+nav ul li{
+	display: inline;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+table tr td{
+	border: 2px solid black;
+}
+
+textarea{
+	resize: none; 
+}
+
+.inputBox{
+	width: 85%;
+	display: block;
+	margin: 0px auto;
+	margin-bottom: 25px; 
+	margin-top: 25px;
+	border-radius: 5px;
+	font-size: 50px;
+}
+
+.inputName{
+	width: 85%;
+	margin: 0 auto;
+	font-size: 30px;
+	padding-bottom: 0px;
+}
+
+.birthday{
+	width: 85%;
+	display: block;
+	margin: 0px auto;
+	margin-bottom: 25px; 
+	border-radius: 5px;
+	font-size: 33px;
+}
+
+.radioButton{
+	display: none;
+}
+
+.birthday:hover{
+	color: blue;
+}
+
+.radioButton:checked{
+	display: inline;
+}
+
+#birthdays_container{
+	width: 85%;
+	margin: 0px auto;
+}
+
+#form_container{
+	width: 65%;
+	margin: 0 auto;
+	padding: 15px;
+	background-color: #f4f5f7;
+	border-radius: 15px;
+	box-shadow:  5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.buttons{
+	margin: 0 auto;
+	margin-top: 15px;
+	width: 85%;
+	border-radius: 5px;
+	display: block;
+	height: 50px;
+	font-size: 40px;
+	font-family: Arial;
+	border: none;
+	text-align: center;
+	color: #555555;
+	box-shadow:  2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.months{
+  	font-family: Open Sans Condensed, sans-serif;
+  	font-weight: normal;
+  	font-size: 50px;
+  	color: #069;
+  	border-bottom: 1px solid grey; 
+}
+
+.days {
+  	font-family: Open Sans Condensed, sans-serif;
+  	font-weight: normal;
+  	font-size: 35px;
+  	color: #069;
+  	margin-bottom: 0;
+}
+
+.days ~ p {    /* only applies to p-elements on the main page */
+    margin: 0;
+    position: relative;
+    top: -40px;     /* move person names to line up with the day number */
+    left: 50px;     /* make sure the person names don't overlap the day number */
+}
+
+#redButton{
+	background-color: #f44336;
+}
+
+#greenButton{
+	background-color: #4CAF50;
+}
+
+#blueButton{
+	background-color: #7badfc;
+}
+
+#checkBox{
+	margin-left: 7.5%;
+	margin-bottom: 25px;
+    width: 25px;
+    height: 25px;
+}
+
+#deleteText{
+	width: 85%;
+	margin: 0 auto;
+	font-size: 35px;
+	padding-bottom: 0px;
+	margin-bottom: 30px;
+}
